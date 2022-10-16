@@ -1,5 +1,7 @@
 #pragma once
 #include <stdio.h>
+#include <time.h>
+#include <malloc.h>
 int Sum(int, int);
 int Subtract(int, int);
 int Devide(int, int);
@@ -9,7 +11,6 @@ int CompareThree(int, int, int);
 int Remainder(int, int);
 int* Swap(int*, int, int);
 void ShowArray(int*, int);
-
 
 int Sum_C(int, int);
 int Subtract_C(int, int);
